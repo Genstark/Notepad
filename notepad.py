@@ -5,7 +5,7 @@ def save():
     data = [("All tyes", "*.*"),("html file",".html"),
             ("css file",".css"),("javascript file",".js"),
             ("java file",".java"),("python file",".py"),
-            ("c++ file",".cpp"),("text file",".txt")]
+            ("c++ file",".cpp"),("text file",".txt")] #extension of file
     
     filedialog.asksaveasfile(filetypes = data, defaultextension = data)
 
